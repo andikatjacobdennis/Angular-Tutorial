@@ -1,4 +1,4 @@
-## Angular Project Structure and Components.md
+## Angular Project Structure and Components
 
 ### What is the `src/index.html` File?
 
