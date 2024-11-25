@@ -4,7 +4,7 @@ A comprehensive guide to learning Angular from scratch.
 
 ## Table of Contents
 
-- [1. Introduction](01.%20Introduction.md)
+- [01. Introduction](01.%20Introduction.md)
    * [What is Angular?  ](01.%20Introduction.md#what-is-angular)
    * [Why Use Angular?  ](01.%20Introduction.md#why-use-angular)
    * [Setting Up the Environment  ](01.%20Introduction.md#setting-up-the-environment)
@@ -16,7 +16,7 @@ A comprehensive guide to learning Angular from scratch.
       + [6. Access the Application  ](01.%20Introduction.md#6-access-the-application)
    * [A Few Notes for Beginners:  ](01.%20Introduction.md#a-few-notes-for-beginners)
 
-2. [02. Angular Project Structure and Components](02.%20Angular%20Project%20Structure%20and%20Components.md)
+- [02. Angular Project Structure and Components](02.%20Angular%20Project%20Structure%20and%20Components.md)
     - [Creating Your First Angular Application](#creating-your-first-angular-application)
     - [Understanding the Angular Folder Structure](#understanding-the-angular-folder-structure)
     - [Using Angular CLI](#using-angular-cli)
