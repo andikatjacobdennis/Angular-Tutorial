@@ -4,7 +4,7 @@ A comprehensive guide to learning Angular from scratch.
 
 ## Table of Contents
 
-1. [Introduction](introduction.md)
+1. [Introduction](01.%20Introduction.md)
     - [What is Angular?](#what-is-angular)
     - [Why Use Angular?](#why-use-angular)
     - [Setting Up the Environment](#setting-up-the-environment)
