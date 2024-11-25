@@ -16,7 +16,7 @@ A comprehensive guide to learning Angular from scratch.
       + [6. Access the Application  ](01.%20Introduction.md#6-access-the-application)
    * [A Few Notes for Beginners:  ](01.%20Introduction.md#a-few-notes-for-beginners)
 
-2. [Getting Started](#getting-started)
+2. [02. Angular Project Structure and Components](02.%20Angular%20Project%20Structure%20and%20Components.md)
     - [Creating Your First Angular Application](#creating-your-first-angular-application)
     - [Understanding the Angular Folder Structure](#understanding-the-angular-folder-structure)
     - [Using Angular CLI](#using-angular-cli)
