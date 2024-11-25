@@ -1,12 +1,4 @@
-Let’s break it down further for an absolute beginner, step by step, explaining the purpose of each piece and how everything works together in an Angular application.
-
----
-
-## What is Angular?
-Angular is a framework for building web applications. Think of it as a tool to:
-- Organize your web app into small pieces called **components**.
-- Handle user actions, like clicking buttons or submitting forms.
-- Automatically update what the user sees when data changes.
+## Angular Project Structure and Components.md
 
 ### What is the `src/index.html` File?
 
