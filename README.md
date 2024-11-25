@@ -17,9 +17,12 @@ A comprehensive guide to learning Angular from scratch.
    * [A Few Notes for Beginners:  ](01.%20Introduction.md#a-few-notes-for-beginners)
 
 - [02. Angular Project Structure and Components](02.%20Angular%20Project%20Structure%20and%20Components.md)
-    - [Creating Your First Angular Application](#creating-your-first-angular-application)
-    - [Understanding the Angular Folder Structure](#understanding-the-angular-folder-structure)
-    - [Using Angular CLI](#using-angular-cli)
+   * [What is the `src/index.html` File?](02.%20Angular%20Project%20Structure%20and%20Components.md#what-is-the-srcindexhtml-file)
+   * [Breaking it Down](02.%20Angular%20Project%20Structure%20and%20Components.md#breaking-it-down)
+   * [What is the `app` Folder?](02.%20Angular%20Project%20Structure%20and%20Components.md#what-is-the-app-folder)
+   * [File-by-File Explanation of the `app` Folder](02.%20Angular%20Project%20Structure%20and%20Components.md#file-by-file-explanation-of-the-app-folder)
+   * [How Does the App Work?](02.%20Angular%20Project%20Structure%20and%20Components.md#how-does-the-app-work)
+   * [Summary for Beginners](02.%20Angular%20Project%20Structure%20and%20Components.md#summary-for-beginners)
 
 3. [Core Concepts](#core-concepts)
     - [Components](#components)
