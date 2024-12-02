@@ -1,6 +1,6 @@
 # Angular Tutorial
 
-A comprehensive guide to learning Angular from scratch.
+A comprehensive guide to learning Angular from basic to advanced.
 
 ## Table of Contents
 
