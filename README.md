@@ -1,6 +1,6 @@
-# 🌟 Angular Mastery Guide 🌟
+# Angular-Tutorial
 
-Embark on a journey to master Angular, where we take you from the basics to the sophisticated world of advanced concepts. Whether you’re just starting or fine-tuning your expertise, this guide has something for everyone. Let's dive in!
+Embark on a journey to learn Angular, where we take you from the basics to the sophisticated world of advanced concepts. Whether you’re just starting or fine-tuning your expertise, this guide has something for everyone. Let's dive in!
 
 ---
 
