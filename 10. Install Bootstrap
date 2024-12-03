@@ -1,0 +1,129 @@
+## 09. Using Bootstrap
+
+### Tutorial: Using Bootstrap in an Angular Project
+
+Bootstrap is a popular CSS framework for building responsive and mobile-first websites. Integrating Bootstrap into an Angular project is straightforward. This tutorial will guide you through the process of installing Bootstrap, configuring it, and implementing a simple responsive **navbar**.
+
+---
+
+### Step 1: Create an Angular Project
+If you don’t already have an Angular project, create one using the Angular CLI:
+
+```bash
+ng new my-angular-app
+cd my-angular-app
+```
+
+Make sure your Angular CLI version is up-to-date:
+
+```bash
+ng version
+```
+
+---
+
+### Step 2: Install Bootstrap
+Bootstrap can be added to your Angular project via npm. Run the following command to install Bootstrap:
+
+```bash
+npm install bootstrap
+```
+
+Additionally, install Popper.js (used by Bootstrap for tooltips and dropdowns) if it isn’t automatically included:
+
+```bash
+npm install @popperjs/core
+```
+
+---
+
+### Step 3: Include Bootstrap in Your Angular Project
+To use Bootstrap styles, include its CSS file in your project. Add the following line to the `angular.json` file under the `styles` array:
+
+```json
+"styles": [
+  "src/styles.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+]
+```
+
+For JavaScript-based Bootstrap components (like dropdowns, modals, and tooltips), include Bootstrap’s JavaScript file under the `scripts` array:
+
+```json
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+```
+
+Save the file. Angular will automatically rebuild the project if you’re running the development server.
+
+---
+
+### Step 4: Add a Bootstrap Navbar
+Now let’s implement a responsive navbar using Bootstrap.
+
+#### Update the `app.component.html`
+Replace the default content in `src/app/app.component.html` with the following Bootstrap navbar template:
+
+```html
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MyApp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+
+#### Explanation:
+1. **Navbar Container**:
+   - The `navbar-expand-lg` class makes the navbar responsive. It collapses into a toggle menu on small screens.
+   - `bg-light` and `navbar-light` are Bootstrap classes to style the navbar with a light background.
+2. **Branding**: The `<a class="navbar-brand">` element displays the app’s logo or name.
+3. **Toggle Button**: The button with `navbar-toggler` and `data-bs-toggle` is used for toggling the menu on smaller screens.
+4. **Nav Links**: Links within `<ul class="navbar-nav">` represent menu items.
+
+---
+
+### Step 5: Run the Application
+Start your development server to view the changes:
+
+```bash
+ng serve
+```
+
+Open your browser and navigate to `http://localhost:4200`. You should see a fully functional Bootstrap navbar.
+
+---
+
+### Step 6: Customize the Navbar
+You can customize the navbar to match your application’s design by:
+- Updating the `class` attributes for different colors (`bg-dark`, `navbar-dark`, etc.).
+- Adding custom styles in the `styles.css` file.
+- Linking the menu items to Angular routes for navigation.
+
+For example, to change the background color:
+
+```html
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+```
+
+---
+
+### Troubleshooting
+- **Bootstrap styles not applying**: Ensure the `angular.json` file has the correct path to the `bootstrap.min.css`.
+- **Dropdowns or tooltips not working**: Ensure `bootstrap.bundle.min.js` is included in the `scripts` array.
