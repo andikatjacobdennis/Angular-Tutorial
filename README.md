@@ -11,3 +11,6 @@ A complete guide to mastering Angular, from beginner to advanced concepts.
 - [05. Running a Hello World](05.%20running-a-hello-world.md)
 - [06. Interpolation & Style Binding](06.%20interpolation-style-binding.md)
 - [07. Event Handling](07.%20event-handling.md)
+- [08. Event Handling](07.%20event-handling.md)
+- [09. Event Handling](07.%20event-handling.md)
+- [09. Event Handling](07.%20event-handling.md)
