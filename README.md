@@ -14,4 +14,6 @@ A complete guide to mastering Angular, from beginner to advanced concepts.
 - [08. For loop and IF statement](08.%20For%20loop%20and%20IF%20statement.md)
 - [09. Routing](09.%20Routing.md)
 - [10. Using Bootstrap](10.%20Using%20Bootstrap.md)
-- [11. API Calling](11.%20API%20Calling.md)
+- [11. Reactive Forms](11.%20Reactive%20Forms.md)
+- [12. Reactive Dynamic Forms](11.%20Reactive%20Dynamic%20Forms.md)
+- [13. API Calling](13.%20API%20Calling.md)
