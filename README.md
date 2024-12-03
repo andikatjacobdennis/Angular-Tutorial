@@ -18,3 +18,8 @@ A complete guide to mastering Angular, from beginner to advanced concepts.
 - [12. Reactive Dynamic Forms](12.%20Reactive%20Dynamic%20Forms.md)
 - [13. API Calling](13.%20API%20Calling.md)
 - [14. Services](14.%20Services.md)
+- [15. Common Component](15.%20Common%20Component.md)
+- [14. CRUD](14.%20CRUD.md)
+- [15. Material](15.%20Material.md)
+- [16. Unit Testing and Debugging](16.%20Unit%20Testing%20and%20Debugging.md)
+- [17. Building for Production](17.%20Building%20for%20Production.md)
