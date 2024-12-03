@@ -9,7 +9,7 @@ A complete guide to mastering Angular, from beginner to advanced concepts.
 - [03. Significance of package.json in an Angular Project](03.%20Significance%20of%20package.json%20in%20an%20Angular%20Project.md)
 - [04. Significance of angular.json in an Angular Project](04.%20Significance%20of%20angular.json%20in%20an%20Angular%20Project.md)
 - [05. Running a Hello World](05.%20Running%20a%20Hello%20World.md)
-- [06. Interpolation and Style Binding](06.%20Interpolation%20and%20style%20binding.md)
+- [06. Interpolation and Style Binding](06.%20Interpolation%20and%20Style%20Binding.md)
 - [07. Event Handling](07.%20Event%20Handling.md)
 - [08. For loop and IF statement](08.%20For%20loop%20and%20IF%20statement.md)
 - [09. Routing](09.%20Routing.md)
