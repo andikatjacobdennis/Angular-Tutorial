@@ -5,8 +5,11 @@ A complete guide to mastering Angular, from beginner to advanced concepts.
 ## Table of Contents
 
 [01. Introduction](01.%20Introduction.md)
+
 [02. Angular Project Structure and Components](02.%20Angular%20Project%20Structure%20and%20Components.md)
+
 [03. Significance of package.json in an Angular Project](03.%20Significance%20of%20package.json%20in%20an%20Angular%20Project.md)
+
 [04. Significance of angular.json in an Angular Project](04.%20Significance%20of%20angular.json%20in%20an%20Angular%20Project.md)
 [05. Running a Hello World](05.%20Running%20a%20Hello%20World.md)
 [06. Interpolation and Style Binding](06.%20Interpolation%20and%20Style%20Binding.md)
