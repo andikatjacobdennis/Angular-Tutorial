@@ -57,8 +57,11 @@ Embark on a journey to learn Angular, where we take you from the basics to the s
 17. [**Material**](17.%20Material.md)  
     Explore Angular Material and enhance your app with beautifully designed UI components.
 
-18. [**Unit Testing and Debugging**](18.%20Unit%20Testing%20and%20Debugging.md)  
+18. [**Feature Flags**](18.%20Feature%20Flags.md)
+    Feature flags are for the work that are being developed. Once the feature is running in production and enabled for everyone then we can remove the flag from the code base.   
+    
+19. [**Unit Testing and Debugging**](19.%20Unit%20Testing%20and%20Debugging.md)  
     Dive into testing and debugging—making sure your app is as robust as possible.
 
-19. [**Building for Production**](19.%20Building%20for%20Production.md)  
+20. [**Building for Production**](20.%20Building%20for%20Production.md)  
     The final step: preparing your app for the real world.
