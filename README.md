@@ -30,38 +30,44 @@ Embark on a journey to learn Angular, where we take you from the basics to the s
 8. [**For Loop and IF Statement**](08.%20For%20loop%20and%20IF%20statement.md)  
    Logic meets display—build dynamic pages using loops and conditions.
 
-9. [**Routing**](09.%20Routing.md)  
-   Learn how to navigate between pages in a seamless, Angular way.
+9. [**Directives**](22.%20Directives.md)  
+   Unleash the power of directives to manipulate the DOM and add custom behavior to your templates.
 
-10. [**Angular Forms**](10.%20Angular%20Forms.md)  
+10. [**Pipes**](21.%20Pipes.md)  
+    Transform your data within templates using Angular pipes.
+
+11. [**Routing**](09.%20Routing.md)  
+    Learn how to navigate between pages in a seamless, Angular way.
+
+12. [**Angular Forms**](10.%20Angular%20Forms.md)  
     Style your Angular app with the power of Bootstrap and make it look as good as it feels.
 
-11. [**Reactive Forms**](11.%20Reactive%20Forms.md)  
+13. [**Reactive Forms**](11.%20Reactive%20Forms.md)  
     Harness the power of reactive forms to create dynamic, user-responsive applications.
 
-12. [**Reactive Dynamic Forms**](12.%20Reactive%20Dynamic%20Forms.md)  
+14. [**Reactive Dynamic Forms**](12.%20Reactive%20Dynamic%20Forms.md)  
     A deep dive into crafting forms that evolve with user input.
 
-13. [**API Calling**](13.%20API%20Calling.md)  
-    Unlock the world of data as you integrate APIs into your Angular application.
-
-14. [**Services**](14.%20Services.md)  
+15. [**Services**](14.%20Services.md)  
     Discover the power of services for data management and reusability.
 
-15. [**Common Component**](15.%20Common%20Component.md)  
-    Build reusable components for cleaner, more efficient code.
+16. [**API Calling**](13.%20API%20Calling.md)  
+    Unlock the world of data as you integrate APIs into your Angular application.
 
-16. [**CRUD Operations**](16.%20CRUD.md)  
+17. [**CRUD Operations**](16.%20CRUD.md)  
     Learn how to create, read, update, and delete—fundamental operations for any web app.
 
-17. [**Material**](17.%20Material.md)  
+18. [**Common Component**](15.%20Common%20Component.md)  
+    Build reusable components for cleaner, more efficient code.
+
+19. [**Feature Flags**](18.%20Feature%20Flags.md)  
+    Feature flags allow for managing features dynamically during development and in production.
+
+20. [**Material**](17.%20Material.md)  
     Explore Angular Material and enhance your app with beautifully designed UI components.
 
-18. [**Feature Flags**](18.%20Feature%20Flags.md)
-    Feature flags are for the work that are being developed. Once the feature is running in production and enabled for everyone then we can remove the flag from the code base.   
-    
-19. [**Unit Testing and Debugging**](19.%20Unit%20Testing%20and%20Debugging.md)  
-    Dive into testing and debugging—making sure your app is as robust as possible.
-
-20. [**Building for Production**](20.%20Building%20for%20Production.md)  
+21. [**Building for Production**](20.%20Building%20for%20Production.md)  
     The final step: preparing your app for the real world.
+
+22. [**Unit Testing and Debugging**](19.%20Unit%20Testing%20and%20Debugging.md)  
+    Dive into testing and debugging—making sure your app is as robust as possible.
