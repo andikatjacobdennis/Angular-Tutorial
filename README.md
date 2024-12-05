@@ -33,7 +33,7 @@ Embark on a journey to learn Angular, where we take you from the basics to the s
 9. [**Routing**](09.%20Routing.md)  
    Learn how to navigate between pages in a seamless, Angular way.
 
-10. [** Angular Forms**](10.%20Angular%20Forms.md)  
+10. [**Angular Forms**](10.%20Angular%20Forms.md)  
     Style your Angular app with the power of Bootstrap and make it look as good as it feels.
 
 11. [**Reactive Forms**](11.%20Reactive%20Forms.md)  
