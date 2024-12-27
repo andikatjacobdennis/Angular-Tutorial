@@ -36,6 +36,7 @@
 # Interpolation and Style Binding
 **Component (app.component.ts)**
 
+``` angular
 import { Component } from '@angular/core';
 
 @Component({
@@ -77,8 +78,8 @@ export class AppComponent {
 `  `}
 
 }
-**
 
+```
 
 **Template (app.component.html)**
 
