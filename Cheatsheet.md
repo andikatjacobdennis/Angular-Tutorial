@@ -36,47 +36,30 @@
 # Interpolation and Style Binding
 **Component (app.component.ts)**
 
-``` angular
+```typescript
+
 import { Component } from '@angular/core';
 
 @Component({
-
-`  `selector: 'app-root',
-
-`  `templateUrl: './app.component.html',
-
-`  `styleUrls: ['./app.component.css']
-
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-
 export class AppComponent {
+  title = 'my-angular-app';
+  currentDate: Date = new Date();
+  techData = {
+    frontend: 'Angular',
+    backend: 'Node.js',
+    programmingLanguage: 'TypeScript',
+    database: 'MongoDB'
+  };
+  fontSize: string = '20px';
+  isHighlighted: boolean = true;
 
-`  `title = 'my-angular-app';
-
-`  `currentDate: Date = new Date();
-
-`  `techData = {
-
-`    `frontend: 'Angular',
-
-`    `backend: 'Node.js',
-
-`    `programmingLanguage: 'TypeScript',
-
-`    `database: 'MongoDB'
-
-`  `};
-
-`  `fontSize: string = '20px';
-
-`  `isHighlighted: boolean = true;
-
-`  `getGreeting(): string {
-
-`    `return 'Hello from a method!';
-
-`  `}
-
+  getGreeting(): string {
+    return 'Hello from a method!';
+  }
 }
 
 ```
