@@ -1,26 +1,26 @@
 # Introduction
 **Node.js and NPM Commands**
 
-- node -v: Check Node.js version
-- npm -v: Check npm version
-- npm uninstall -g @angular/cli: Uninstall existing Angular CLI
-- npm install -g @angular/cli@10.0.6: Install Angular CLI version 10.0.6
-- npm start: Runs the development server using ng serve.
-- npm test: Executes unit tests using tools like Karma and Jasmine.
-- npm run build: Creates an optimized production build of the app.
-- npm install <package-name>: Installs a new dependency.
-- npm install <package-name> --save-dev: Installs a new dev dependency.
-- npm install -g <package-name>: Installs a package globally on your system.
+- `node -v`: Check Node.js version
+- `npm -v`: Check npm version
+- `npm uninstall -g @angular/cli`: Uninstall existing Angular CLI
+- `npm install -g @angular/cli@10.0.6`: Install Angular CLI version 10.0.6
+- `npm start`: Runs the development server using ng serve.
+- `npm test`: Executes unit tests using tools like Karma and Jasmine.
+- `npm run build`: Creates an optimized production build of the app.
+- `npm install <package-name>`: Installs a new dependency.
+- `npm install <package-name> --save-dev`: Installs a new dev dependency.
+- `npm install -g <package-name>`: Installs a package globally on your system.
 
 **Angular CLI Commands**
 
-- ng version: Check Angular CLI version
-- ng new my-angular-app: Create a new Angular application
-- cd my-angular-app: Navigate to the project folder
-- ng serve: Start the development server
-- ng generate component my-component: Generate a new component
-- ng lint: Checks for coding standard violations.
-- ng e2e: Runs end-to-end tests.
+- `ng version`: Check Angular CLI version
+- `ng new my-angular-app`: Create a new Angular application
+- `cd my-angular-app`: Navigate to the project folder
+- `ng serve`: Start the development server
+- `ng generate component my-component`: Generate a new component
+- `ng lint`: Checks for coding standard violations.
+- `ng e2e`: Runs end-to-end tests.
 
 # Angular Project Structure
 **Main Files and Folders**
