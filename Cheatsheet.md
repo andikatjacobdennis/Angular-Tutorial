@@ -66,6 +66,8 @@ export class AppComponent {
 
 **Template (app.component.html)**
 
+```html
+
 <h1>{{ title }}</h1>
 
 <p>Today's date is: {{ currentDate | date }}</p>
@@ -133,7 +135,7 @@ strong {
 `  `color: darkgreen;
 
 }
-
+```
 
 # Event Handling in Angular
 **Basic Syntax**
