@@ -77,64 +77,48 @@ export class AppComponent {
 <p [style.fontSize]="fontSize">This text has dynamic font size.</p>
 
 <p [style.color]="isHighlighted ? 'red' : 'black'">
-
-`  `This text color changes based on a condition.
-
+  This text color changes based on a condition.
 </p>
 
 <h2>Technology Stack</h2>
 
 <ul>
-
-`  `<li><strong>Frontend:</strong> {{ techData.frontend }}</li>
-
-`  `<li><strong>Backend:</strong> {{ techData.backend }}</li>
-
-`  `<li><strong>Programming Language:</strong> {{ techData.programmingLanguage }}</li>
-
-`  `<li><strong>Database:</strong> {{ techData.database }}</li>
-
+  <li><strong>Frontend:</strong> {{ techData.frontend }}</li>
+  <li><strong>Backend:</strong> {{ techData.backend }}</li>
+  <li><strong>Programming Language:</strong> {{ techData.programmingLanguage }}</li>
+  <li><strong>Database:</strong> {{ techData.database }}</li>
 </ul>
+
+```
 
 **Styles (app.component.css)**
 
+```css
+
 h1 {
-
-`  `text-align: center;
-
-`  `color: darkblue;
-
+  text-align: center;
+  color: darkblue;
 }
 
 p {
-
-`  `margin: 10px;
-
-`  `font-family: Arial, sans-serif;
-
+  margin: 10px;
+  font-family: Arial, sans-serif;
 }
 
 ul {
-
-`  `list-style-type: none;
-
-`  `padding-left: 0;
-
+  list-style-type: none;
+  padding-left: 0;
 }
 
 li {
-
-`  `margin: 10px;
-
-`  `font-size: 18px;
-
+  margin: 10px;
+  font-size: 18px;
 }
 
 strong {
-
-`  `color: darkgreen;
-
+  color: darkgreen;
 }
+
 ```
 
 # Event Handling in Angular
