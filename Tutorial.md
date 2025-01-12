@@ -68,10 +68,10 @@ Angular CLI is a **Command Line Interface tool** that streamlines Angular applic
    The Angular CLI generates a predefined structure for the project:
    - **`.vscode` folder:** Stores Visual Studio Code settings (e.g., `launch.json` for debugging).
    - **`node_modules` folder:** Contains third-party libraries and dependencies. These are bundled when the app is compiled.
+   - **`public` folder:** Contains favicon.ico whic is the browser icon for the app.
    - **`src` folder:** Houses the application source code.
      - **`app` folder:** Contains components and modules, the building blocks of the Angular app.
      - **`assets` folder:** Stores resources like images, icons, and text files.
-     - **`favicon.ico`:** The browser icon for the app.
      - **`index.html`:** The entry point of the application. External styles and scripts are injected dynamically.
      - **`main.ts`:** Bootstraps the Angular app, starting with the `AppModule`.
      - **`styles.css`:** Global styles for the application.
