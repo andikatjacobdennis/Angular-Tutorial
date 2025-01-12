@@ -53,3 +53,43 @@ Angular CLI is a **Command Line Interface tool** that streamlines Angular applic
    ng version
    ```
    This also displays the versions of Node.js and npm in use.
+
+## **Creating and setting up an Angular project**
+
+### 1. **Creating a New Project**
+   - **Command:** `ng new [project-name]`
+   - **Options Prompted:**
+     - **Angular Routing:** Allows navigation across pages/components in the app. If declined, can be added later.
+     - **Stylesheet Format:** Options include CSS, SCSS, SASS, LESS, etc. You chose CSS.
+
+---
+
+### 2. **Project Structure**
+   The Angular CLI generates a predefined structure for the project:
+   - **`.vscode` folder:** Stores Visual Studio Code settings (e.g., `launch.json` for debugging).
+   - **`node_modules` folder:** Contains third-party libraries and dependencies. These are bundled when the app is compiled.
+   - **`src` folder:** Houses the application source code.
+     - **`app` folder:** Contains components and modules, the building blocks of the Angular app.
+     - **`assets` folder:** Stores resources like images, icons, and text files.
+     - **`favicon.ico`:** The browser icon for the app.
+     - **`index.html`:** The entry point of the application. External styles and scripts are injected dynamically.
+     - **`main.ts`:** Bootstraps the Angular app, starting with the `AppModule`.
+     - **`styles.css`:** Global styles for the application.
+   - **Configuration and Metadata Files:**
+     - **`.editorconfig`:** Ensures consistent editor settings across team members.
+     - **`.gitignore`:** Specifies files/folders to exclude from version control (e.g., `node_modules`).
+     - **`angular.json`:** Project configuration for Angular CLI.
+     - **`package.json`:** Defines dependencies and scripts for the project.
+     - **`package-lock.json`:** Locks the specific versions of installed dependencies.
+     - **`README.md`:** Provides basic documentation for the project.
+     - **`tsconfig.*`:** TypeScript configuration files.
+
+---
+
+### 3. **Running the Project**
+   - **Command:** `ng serve`
+   - **Outcome:**
+     - Starts a development server on `http://localhost:4200`.
+     - Opens the default browser with the initial Angular app view.
+
+---
