@@ -118,7 +118,6 @@ Creating an SSR-enabled Angular application is now as simple as:
 ```bash
 ng new myApp --ssr
 ```
-This command generates an application pre-configured with Angular Universal, ready to take advantage of SSR.
 
 ---
 
