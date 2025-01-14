@@ -136,7 +136,7 @@ Angular 17 introduces the `@if` directive, making conditional rendering easier t
 ```
 
 **After Angular 17 (using `@if`):**  
-```html
+```typescript
 @if (loggedIn) {
   The user is logged in.
 } @else {
