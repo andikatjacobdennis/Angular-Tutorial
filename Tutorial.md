@@ -243,4 +243,37 @@ This new syntax simplifies lazy-loading, making it declarative and easier to imp
 ### **6. More Stable Signals**
 ### **7. Better Build Performance**
 
-## **Implement 2 way binding**
+## 5. **Two-Way Binding**:
+   Two-way data binding in Angular allows a dynamic link between the component’s property and the UI. When you use `[(ngModel)]`, any changes in the input field are automatically reflected in the component, and any changes to the component property are reflected in the UI.
+
+ ### Example:
+ ```html
+ <label>Name: </label>
+ <input [(ngModel)]="name" placeholder="Enter your name" />
+
+ <p>Your name is: {{ name }}</p>
+ ```
+
+ ### How It Works:
+ - **`[(ngModel)]`:** The square brackets `[ ]` are for property binding, and the parentheses `( )` are for event binding. Together, `[(ngModel)]` binds the input field to the `name` property in your component.
+ - **Dynamic Updates:** When you type something in the input field, it updates the `name` property in the component, which in turn updates wherever `{{ name }}` is used in the template.
+
+ ### Prerequisites:
+ - Import `FormsModule` into your module or include it in the `imports` array if you're using a standalone component.
+
+ ```typescript
+ import { FormsModule } from '@angular/forms';
+
+ @Component({
+   selector: 'app-root',
+   imports: [FormsModule], // Include FormsModule here
+   templateUrl: './app.component.html',
+   styleUrls: ['./app.component.css']
+ })
+ export class AppComponent {
+   name: string = ''; // Property to bind
+ }
+ ```
+
+ ### Outcome:
+ When a user enters their name in the input field, the `name` value updates dynamically, and the updated value is displayed immediately in the `<p>Your name is: {{ name }}</p>`.
