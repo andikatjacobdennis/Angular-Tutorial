@@ -93,3 +93,26 @@ Angular CLI is a **Command Line Interface tool** that streamlines Angular applic
      - Opens the default browser with the initial Angular app view.
 
 ---
+
+### 4. **Introduction to Angular 17**
+1. **Server-Side Rendering(SSR)**
+what is ssr..
+ng new myApp --ssr
+2. **new if else**
+old example before angular 17
+new example
+3. **new for**
+old example before angular 17
+new example
+4. **new switch**
+old example before angular 17
+new example
+5. **new switch**
+old example before angular 17
+new example
+6. **Diferable views**
+A fancy name given to the lazy-loading feature
+old example before angular 17
+new example
+7. **More stable signals**
+8. **Better build performance**
