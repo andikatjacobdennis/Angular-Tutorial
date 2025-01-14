@@ -1,4 +1,4 @@
-# Angular Tutorial
+# Angular Tutorial: Introduction
 
 ## What is Angular?
 Angular is a **popular open-source JavaScript/TypeScript framework** developed by Google, designed to make building **dynamic single-page applications (SPAs)** easier.
