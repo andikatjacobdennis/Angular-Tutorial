@@ -242,3 +242,5 @@ This new syntax simplifies lazy-loading, making it declarative and easier to imp
 
 ### **6. More Stable Signals**
 ### **7. Better Build Performance**
+
+## **Implement 2 way binding**
